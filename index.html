@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>XYZ Sweet Shop | Traditional Taste, Made Fresh</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span>XYZ</span>
+                Sweet Shop
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-button">
+                Order Now
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        AUTHENTIC INDIAN SWEETS
+                    </p>
+
+                    <h1>
+                        Taste the
+                        <span>Tradition.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Handcrafted sweets made with traditional recipes,
+                        premium ingredients and a whole lot of love.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#menu" class="btn btn-primary">
+                            Explore Menu
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                    <div class="hero-info">
+
+                        <div>
+                            <strong>20+</strong>
+                            <span>Years of Tradition</span>
+                        </div>
+
+                        <div>
+                            <strong>50+</strong>
+                            <span>Sweet Varieties</span>
+                        </div>
+
+                        <div>
+                            <strong>1K+</strong>
+                            <span>Happy Customers</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="image-circle"></div>
+
+                    <img
+                        src="wall1.jpg"
+                        alt="Traditional Indian sweets"
+                    >
+
+                    <div class="floating-card">
+
+                        <span class="star">★</span>
+
+                        <div>
+                            <strong>Freshly Made</strong>
+                            <small>Every single day</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=85"
+                        alt="Fresh sweets"
+                    >
+
+                    <div class="experience-card">
+                        <strong>20+</strong>
+                        <span>Years of<br>Excellence</span>
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <p class="section-label">
+                        ABOUT US
+                    </p>
+
+                    <h2>
+                        Where Every Sweet
+                        <span>Tells a Story.</span>
+                    </h2>
+
+                    <p>
+                        At XYZ Sweet Shop, we believe that sweets are more
+                        than just food. They are a part of celebrations,
+                        traditions and beautiful memories.
+                    </p>
+
+                    <p>
+                        Our sweets are prepared using carefully selected
+                        ingredients and time-tested recipes to deliver the
+                        authentic taste you have loved for generations.
+                    </p>
+
+                    <div class="features">
+
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h3>Fresh Ingredients</h3>
+                                <p>Quality ingredients in every bite.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h3>Traditional Recipes</h3>
+                                <p>Authentic recipes passed down generations.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h3>Made With Love</h3>
+                                <p>Freshly prepared every day.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MENU ================= -->
+
+        <section class="menu section" id="menu">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        OUR MENU
+                    </p>
+
+                    <h2>
+                        Made Fresh,
+                        <span>Loved Always.</span>
+                    </h2>
+
+                    <p>
+                        Discover our selection of traditional sweets and
+                        delicious treats.
+                    </p>
+
+                </div>
+
+
+                <!-- Filter Buttons -->
+
+                <div class="menu-filters">
+
+                    <button class="filter-btn active" data-category="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-category="milk">
+                        Milk Sweets
+                    </button>
+
+                    <button class="filter-btn" data-category="traditional">
+                        Traditional
+                    </button>
+
+                    <button class="filter-btn" data-category="dryfruit">
+                        Dry Fruit
+                    </button>
+
+                    <button class="filter-btn" data-category="savory">
+                        Savories
+                    </button>
+
+                </div>
+
+
+                <!-- Menu Cards -->
+
+                <div class="menu-grid">
+
+                    <div class="sweet-card" data-category="milk">
+
+                        <div class="sweet-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1601303516534-6a9b2a1f5c1e?auto=format&fit=crop&w=600&q=80"
+                                alt="Gulab Jamun"
+                            >
+
+                            <span>Popular</span>
+
+                        </div>
+
+                        <div class="sweet-info">
+
+                            <div>
+                                <h3>Gulab Jamun</h3>
+                                <p>Soft, juicy and delicious.</p>
+                            </div>
+
+                            <strong>₹180</strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="sweet-card" data-category="traditional">
+
+                        <div class="sweet-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80"
+                                alt="Kaju Katli"
+                            >
+
+                        </div>
+
+                        <div class="sweet-info">
+
+                            <div>
+                                <h3>Kaju Katli</h3>
+                                <p>Premium cashew delicacy.</p>
+                            </div>
+
+                            <strong>₹280</strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="sweet-card" data-category="dryfruit">
+
+                        <div class="sweet-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1589119908995-c6837fa14848?auto=format&fit=crop&w=600&q=80"
+                                alt="Dry Fruit Sweet"
+                            >
+
+                        </div>
+
+                        <div class="sweet-info">
+
+                            <div>
+                                <h3>Dry Fruit Burfi</h3>
+                                <p>Rich and loaded with dry fruits.</p>
+                            </div>
+
+                            <strong>₹320</strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="sweet-card" data-category="traditional">
+
+                        <div class="sweet-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?auto=format&fit=crop&w=600&q=80"
+                                alt="Jalebi"
+                            >
+
+                        </div>
+
+                        <div class="sweet-info">
+
+                            <div>
+                                <h3>Fresh Jalebi</h3>
+                                <p>Crispy, juicy and freshly prepared.</p>
+                            </div>
+
+                            <strong>₹160</strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="sweet-card" data-category="milk">
+
+                        <div class="sweet-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80"
+                                alt="Rasmalai"
+                            >
+
+                        </div>
+
+                        <div class="sweet-info">
+
+                            <div>
+                                <h3>Rasmalai</h3>
+                                <p>Soft cottage cheese in rich milk.</p>
+                            </div>
+
+                            <strong>₹220</strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="sweet-card" data-category="savory">
+
+                        <div class="sweet-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=600&q=80"
+                                alt="Samosa"
+                            >
+
+                        </div>
+
+                        <div class="sweet-info">
+
+                            <div>
+                                <h3>Mini Samosa</h3>
+                                <p>Crispy and perfectly spiced.</p>
+                            </div>
+
+                            <strong>₹120</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WHY US ================= -->
+
+        <section class="why-us section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        WHY CHOOSE US
+                    </p>
+
+                    <h2>
+                        Sweetness You Can
+                        <span>Trust.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="why-grid">
+
+                    <div class="why-card">
+                        <div class="why-icon">01</div>
+                        <h3>Premium Quality</h3>
+                        <p>
+                            We use carefully selected ingredients
+                            to maintain excellent quality.
+                        </p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon">02</div>
+                        <h3>Fresh Every Day</h3>
+                        <p>
+                            Our sweets are freshly prepared every
+                            day for the best taste.
+                        </p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon">03</div>
+                        <h3>Traditional Taste</h3>
+                        <p>
+                            Authentic recipes that preserve the
+                            taste of Indian traditions.
+                        </p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon">04</div>
+                        <h3>Happy Customers</h3>
+                        <p>
+                            Your happiness and satisfaction are
+                            always our priority.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LOCATION ================= -->
+
+        <section class="location section" id="location">
+
+            <div class="container location-grid">
+
+                <div class="location-content">
+
+                    <p class="section-label">
+                        VISIT US
+                    </p>
+
+                    <h2>
+                        Come Say
+                        <span>Hello.</span>
+                    </h2>
+
+                    <p>
+                        Visit our store and enjoy freshly prepared
+                        sweets with your family and friends.
+                    </p>
+
+
+                    <div class="location-details">
+
+                        <div class="detail">
+
+                            <div class="detail-icon">
+                                📍
+                            </div>
+
+                            <div>
+                                <h3>Our Store</h3>
+                                <p>
+                                    Main Road, Near City Center,<br>
+                                    Visakhapatnam, Andhra Pradesh
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <div class="detail-icon">
+                                🕐
+                            </div>
+
+                            <div>
+                                <h3>Opening Hours</h3>
+                                <p>
+                                    Monday - Sunday<br>
+                                    8:00 AM - 10:00 PM
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="detail">
+
+                            <div class="detail-icon">
+                                ☎
+                            </div>
+
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>
+                                    +91 98765 43210
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="https://www.google.com/maps"
+                        target="_blank"
+                        class="btn btn-primary"
+                    >
+                        Get Directions
+                    </a>
+
+                </div>
+
+
+                <div class="map">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Visakhapatnam,Andhra+Pradesh&output=embed"
+                        loading="lazy"
+                        title="XYZ Sweet Shop Location">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container contact-grid">
+
+                <div class="contact-info">
+
+                    <p class="section-label">
+                        CONTACT US
+                    </p>
+
+                    <h2>
+                        We'd Love to
+                        <span>Hear From You.</span>
+                    </h2>
+
+                    <p>
+                        Have a question, want to place an order,
+                        or planning a celebration? Get in touch with us.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ☎
+                        </div>
+
+                        <div>
+                            <small>PHONE</small>
+                            <strong>+91 98765 43210</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ✉
+                        </div>
+
+                        <div>
+                            <small>EMAIL</small>
+                            <strong>hello@xyzsweetshop.com</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ◉
+                        </div>
+
+                        <div>
+                            <small>WHATSAPP</small>
+                            <strong>+91 98765 43210</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Your Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                placeholder="Enter phone number"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            rows="5"
+                            placeholder="How can we help you?"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary submit-btn"
+                    >
+                        Send Message
+                    </button>
+
+                    <p id="formMessage"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="#home" class="logo footer-logo">
+                    <span>XYZ</span>
+                    Sweet Shop
+                </a>
+
+                <p>
+                    Traditional taste, freshly made
+                    and served with love.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#menu">Menu</a>
+                <a href="#location">Location</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div>
+
+                <h3>Contact</h3>
+
+                <p>+91 98765 43210</p>
+                <p>hello@xyzsweetshop.com</p>
+
+            </div>
+
+
+            <div>
+
+                <h3>Follow Us</h3>
+
+                <div class="socials">
+
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">WhatsApp</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © <span id="year"></span> XYZ Sweet Shop.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
